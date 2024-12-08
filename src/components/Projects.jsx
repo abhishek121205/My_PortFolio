@@ -1,6 +1,6 @@
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import { BookOpen, Building2, ExternalLink, FileJson, ShoppingCart } from 'lucide-react'
+import { BookOpen, Braces, Building2, ExternalLink, FileJson, ShoppingCart } from 'lucide-react'
 
 export default function Projects() {
   const projects = [
@@ -46,7 +46,7 @@ export default function Projects() {
     },
     {
       title: "React.JS-CRUD With Json Server",
-      icon: <FileJson className="w-6 h-6 text-yellow-500" />,
+      icon: <Braces className="w-6 h-6 text-yellow-500" />,
       tech: "React.Js, Bootstrap, Json-server",
       description: "CRUD operations using React.js and json-server.It also includes functionality for changing roles using Context Api and have an enhancing design which is created using boostrap",
       link: "https://reactjs-crudwithjsonserver-wrvi.onrender.com/",

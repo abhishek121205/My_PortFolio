@@ -44,6 +44,14 @@ export default function Projects() {
       link: "https://projects-js.onrender.com",
       github: "https://github.com/abhishek121205/Projects_Js"
     },
+    {
+      title: "React.JS-CRUD With Json Server",
+      icon: <FileJson className="w-6 h-6 text-yellow-500" />,
+      tech: "React.Js, Bootstrap, Json-server",
+      description: "CRUD operations using React.js and json-server.It also includes functionality for changing roles using Context Api and have an enhancing design which is created using boostrap",
+      link: "https://reactjs-crudwithjsonserver-wrvi.onrender.com/",
+      github: "https://github.com/abhishek121205/ReactJs_CrudWithJsonServer"
+    },
   ]
 
   return (

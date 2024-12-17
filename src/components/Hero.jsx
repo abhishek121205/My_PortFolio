@@ -42,7 +42,7 @@ export default function Hero() {
           <FaGithub className="text-xl" /> GitHub
         </a>
         <a
-          href="https://linkedin.com"
+          href="http://www.linkedin.com/in/abhishek-Khachar1212"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all duration-300 transform hover:scale-105"

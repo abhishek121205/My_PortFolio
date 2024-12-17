@@ -1,6 +1,6 @@
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import { BookOpen, Braces, Building2, ExternalLink, FileJson, ShoppingCart } from 'lucide-react'
+import { BookOpen, Braces, Building2, ExternalLink, FileJson, MessageCircleCode, ShoppingCart } from 'lucide-react'
 
 export default function Projects() {
   const projects = [
@@ -51,6 +51,14 @@ export default function Projects() {
       description: "CRUD operations using React.js and json-server.It also includes functionality for changing roles using Context Api and have an enhancing design which is created using boostrap",
       link: "https://reactjs-crudwithjsonserver-wrvi.onrender.com/",
       github: "https://github.com/abhishek121205/ReactJs_CrudWithJsonServer"
+    },
+    {
+      title: "Chat App",
+      icon: <MessageCircleCode className="w-6 h-6 text-green-700" />,
+      tech: "React.js, Node.js, Json-server, Tailwind Css",
+      description: "Our cutting-edge Chat Application is built with a modern tech stack to deliver seamlesscommunication and an intuitive user experience. Leveraging React.js for frontend and Node.jswith WebSocket for real-time data transfer, this app ensures instant messaging between users.",
+      link: "https://chatapp-frontend-rtfn.onrender.com/",
+      github: "https://github.com/abhishek121205/ChatApp_Backend"
     },
   ]
 

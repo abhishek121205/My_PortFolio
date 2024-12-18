@@ -1,14 +1,15 @@
 import { FaGithub, FaEnvelope, FaPhone, FaDownload, FaLinkedin } from 'react-icons/fa'
 import { handleDownload } from '../utils/downloadResume'
-
+import profileImage from "../assets/image/profile-2.jpg"
 export default function Hero() {
   return (
     <section className="text-center mb-16 animate-fadeIn">
       <div className="relative inline-block mb-8">
         <img
-          src="https://avatars.githubusercontent.com/u/97677133"
+          // src="https://avatars.githubusercontent.com/u/97677133"
+          src={profileImage}
           alt="Profile"
-          className="w-32 h-32 rounded-full border-4 border-blue-500 shadow-lg transform hover:scale-105 transition-transform duration-300"
+          className="w-32 h-32 object-cover rounded-full border-4 border-blue-500 shadow-lg transform hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute inset-0 rounded-full bg-blue-500 opacity-0 hover:opacity-20 transition-opacity duration-300"></div>
       </div>

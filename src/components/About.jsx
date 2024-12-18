@@ -7,7 +7,7 @@ export default function About() {
         <FaCode className="text-blue-500" /> About Me
       </h3>
       <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-        A highly motivated and dedicated 18-year-old with a solid academic background and a passion for technology. 
+        A highly motivated and dedicated developer with a solid academic background and a passion for technology. 
         Currently pursuing a Bachelor of Computer Applications (BCA) while actively learning full-stack web development. 
         Proficient in a range of programming languages and technologies, eager to leverage technical skills and knowledge 
         in challenging roles.

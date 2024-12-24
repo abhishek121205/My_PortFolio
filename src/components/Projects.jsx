@@ -57,8 +57,8 @@ export default function Projects() {
       icon: <MessageCircleCode className="w-6 h-6 text-green-700" />,
       tech: "React.js, Node.js, Json-server, Tailwind Css",
       description: "Our cutting-edge Chat Application is built with a modern tech stack to deliver seamlesscommunication and an intuitive user experience. Leveraging React.js for frontend and Node.jswith WebSocket for real-time data transfer, this app ensures instant messaging between users.",
-      link: "https://chatapp-frontend-rtfn.onrender.com/",
-      github: "https://github.com/abhishek121205/ChatApp_Backend"
+      link: "https://chat-app-frontend-nine-dun.vercel.app/",
+      github: "https://github.com/abhishek121205/ChatApp_Frontend"
     },
   ]
 
